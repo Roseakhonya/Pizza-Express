@@ -1,3 +1,74 @@
-.jumbotron {
-    background: url("https://bit.ly/34CeUC9");
+Skip to content
+
+ 
+body{
+  background-color:black; 
+  color:white; 
+}    
+ h1{
+    text-align:center;
+    font-size: 50px;
+    
 }
+h2{
+    text-align:center;
+
+    
+}
+#order cost{
+    font-size: 100px;
+}
+.header{
+    background-image: url('https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940');
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-bottom: 5%;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+form {
+  height: 80%;  
+}
+input[type=text] , select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 5px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: goldenrod;
+  }
+  form{
+      height:800px;
+  }
+  .message{
+    height:800px;
+  }
+  .pics{
+      margin-bottom:5%;
+      margin-top:5%;
+}
+.card-footer{
+    background-color: silver;
+}
+#Contacts{
+    color:black;
+    font: weight 600;
+}
+h5{
+    color:black;
+}
+
