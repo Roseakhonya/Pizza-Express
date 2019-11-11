@@ -5,4 +5,5 @@ var order = function(size, crust, toppings){
     this.totalCost= cost;  
 }
 var size = ["Small","Medium", "Large"];
-var crust = [""]
+var crust = ["Cheese-Stuffed Crust", "Pizza Bagels", "Neapolitan Crust", "NY Style Pizza"];
+var toppings = ["Pepperoni", "Onions", "Mushroom", "Extra cheese"];
