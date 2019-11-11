@@ -13,7 +13,6 @@ h2{
     font-size: 100px;
 }
 .header{
-    background-image: url('https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940');
     height:100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +44,7 @@ input[type=text] , select {
   
   input[type=submit] {
     width: 100%;
-    background-color: #FF0B0B;
+    background-color: rgb(255, 11, 133);
     color: white;
     padding: 12px;
     margin: 5px;
