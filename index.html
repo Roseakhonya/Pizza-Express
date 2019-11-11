@@ -105,7 +105,7 @@
                         <p>Chicken Macon BBQ</p>
                     </div>
                 </div>
-                <div class="row" class="forms">
+                <div class="row" id="form-order">
                     <div class="col-md-5">
                         <div class="container-fluid">
                             <div id="Order now">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                         <form action="" class="" id="submission">
-                            <p>Size</p>
+                            <p>Size:</p>
                             <select id="Size" name="Size">
                                 <option value="" id=""></option>
                                 <option value="Small" id="Size">Small</option>
@@ -143,26 +143,21 @@
                             <p id="pizzaTopping"></p>
                         </form>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5" id="delivery-form">
                         <div class="container-fluid">
                             <h3 id="Delivery">Delivery form details</h3>
                             <span class="message"></span>
                             <form action="" class="" id="sub">
                                 <p>Your name:</p>
                                 <input type="text" placeholder="Name" id="fullname"/>
-                                <p>Email address:</p>
-                                <input
-                                type="text"
-                                placeholder="royal@gmail.com"
-                                id="mail"
-                                />
                                 <p>Phone number:</p>
                                 <input
                                 type="text"
                                 placeholder="phone number"
                                 id="phone"
                                 />
-                                <select id="location" name="location" placeholder="Kindly type in your location ">
+                                <p>Location:</p>
+                                <select id="location" name="location">
                                     <option value="Embakasi">Embakasi</option>
                                     <option value="Chiromo">Chiromo</option>
                                     <option value="Lavington">Lavington</option>
