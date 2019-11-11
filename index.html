@@ -115,31 +115,26 @@
                         <form action="" class="" id="submission">
                             <p>Size:</p>
                             <select id="Size" name="Size">
-                                <option value="" id=""></option>
-                                <option value="Small" id="Size">Small</option>
-                                <option value="Medium" id="Size">Medium</option>
-                                <option value="Large" id="Size">Large</option>
+                                <option value=500 id="Size">Small</option>
+                                <option value=850 id="Size">Medium</option>
+                                <option value=1200 id="Size">Large</option>
                             </select>
                             <p>Select the crust type you want:</p>
                             <select id="Crust" name="Size">
-                                <option value="Chicago Deep Dish" id="Crust"></option>
-                                <option value="Cheese-Stuffed Crust" id="Crust">Cheese-Stuffed Crust</option>
-                                <option value="Pizza Bagels" id="Crust">Pizza Bagels</option>
-                                <option value="Neapolitan Crust" id="Crust">Neapolitan Crust</option>
-                                <option value="NY Style Pizza" id="Crust">NY Style Pizza</option>
+                                <option value= 100 id="Crust">Cheese-Stuffed Crust</option>
+                                <option value= 250 id="Crust">Pizza Bagels</option>
+                                <option value= 300 id="Crust">Neapolitan Crust</option>
+                                <option value= 350 id="Crust">NY Style Pizza</option>
                             </select>
                             <p>Select the topping you want:</p>
                             <select id="topping" name="Size">
-                                <option value="" id=""></option>
-                                <option value="Pepperoni" id="topping">Pepperoni</option>
-                                <option value="Onion" id="topping">Onions</option>
-                                <option value="Mushroom" id="topping">Mushroom</option>
-                                <option value="Extra cheese" id="topping">Extra cheese</option>
+                                <option value= 50 id="topping">Pepperoni</option>
+                                <option value= 100 id="topping">Onions</option>
+                                <option value= 150 id="topping">Mushroom</option>
+                                <option value= 200 id="topping">Extra cheese</option>
                             </select>
                             <p>Quantity:</p>
                             <input type="number" placeholder="Quantity" id="quantity"/>
-                            <input type="submit" id="submitbutton"/>
-                            <p id="total-cost">Total cost</p>
                             <p id="pizzaSize"></p>
                             <p id="pizzaCrust"></p>
                             <p id="pizzaTopping"></p>
@@ -177,9 +172,12 @@
                                     <option value="Uthiru">Uthiru</option>
                                     <option value="Westlands">Westlands</option>
                                 </select>
-                                <br />
-                                <input type="submit" id="address button" />
+                                <br/>
                             </form>
+                            
+                            <div class="checkout">
+                                <button input type="submit" id="checkoutbutton">checkout</button>
+                            </div>
                         </div>
                     </div>
                 </div>

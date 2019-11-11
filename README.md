@@ -3,7 +3,7 @@
 ## Description
 This is a website for a Pizza shop where one can place an order for any type of Pizza they wish and decide whether to pick up or delivery
 ## Visual representation
-<img src="images/" alt="screenshot"> 
+<img src="images/pizza.png" alt="screenshot"> 
 
 ## BDD
 The system allows the user to key in their details on the type os crust, size and toppings of the pizza, it computes the cost and  alerts you on how much to pay. It also gives an option to pick or for delivery.
@@ -14,10 +14,10 @@ This application was developed by incorporating the use of:
 - Bootstrap
 - Javascript 
 ## Accessibility
-Find the application on ""
+Find the application on "https://roseakhonya.github.io/Pizza-Express/"
 ## Contributions
-- Go to github search Roseakhonya/Name-generator
-- Fork it
+- Go to github search Roseakhonya/Pizza-Express
+- Clone repo
 - Create your own branches
 - Add and commit your changes
 - Push it to the branch

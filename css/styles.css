@@ -43,7 +43,7 @@ input[type=text] , select {
     box-sizing: border-box;
   }
   
-  input[type=submit] {
+  button[type=submit] {
     width: 100%;
     background-color: rgb(255, 11, 133);
     color: white;
@@ -60,6 +60,13 @@ input[type=text] , select {
   }
   .message{
     height:800px;
+  }
+  #quantity {
+    width: 100%;
+    padding: 18px;
+  }
+  #checkoutbutton {
+    margin-top: 15px;
   }
 .pics{
       margin-bottom:5%;
