@@ -1,20 +1,14 @@
-Skip to content
-
- 
-body{
-  background-color:black; 
+.container {
+  background-color:rgb(109, 5, 5); 
   color:white; 
 }    
  h1{
     text-align:center;
-    font-size: 50px;
-    
-}
+    font-size: 50px}
 h2{
     text-align:center;
-
-    
 }
+
 #order cost{
     font-size: 100px;
 }
@@ -29,8 +23,14 @@ h2{
     text-align: center;
     color: white;
 }
-form {
+#delivery-form{
   height: 80%;  
+}
+#size {
+    margin-bottom: 50px;
+}
+#crust {
+    margin-bottom: 50px;
 }
 input[type=text] , select {
     width: 100%;
@@ -41,23 +41,23 @@ input[type=text] , select {
   
   input[type=submit] {
     width: 100%;
-    background-color: black;
+    background-color: red;
     color: white;
-    padding: 16px;
-    margin: 8px;
+    padding: 12px;
+    margin: 5px;
     border-radius: 5px;
   }
   
   input[type=submit]:hover {
     background-color: goldenrod;
   }
-  form{
-      height:800px;
+  #order-form {
+      height: 100%;
   }
   .message{
     height:800px;
   }
-  .pics{
+.pics{
       margin-bottom:5%;
       margin-top:5%;
 }
