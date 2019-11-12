@@ -114,30 +114,27 @@
                         </div>
                         <form action="" class="" id="submission">
                             <p>Size:</p>
-                            <select id="Size" name="Size">
-                                <option value=500 id="Size">Small</option>
-                                <option value=850 id="Size">Medium</option>
-                                <option value=1200 id="Size">Large</option>
+                            <select id="size" placeholder="size" name="size">
+                                <option value=500 id="size">Small</option>
+                                <option value=850 id="size">Medium</option>
+                                <option value=1200 id="size">Large</option>
                             </select>
                             <p>Select the crust type you want:</p>
-                            <select id="Crust" name="Size">
-                                <option value= 100 id="Crust">Cheese-Stuffed Crust</option>
-                                <option value= 250 id="Crust">Pizza Bagels</option>
-                                <option value= 300 id="Crust">Neapolitan Crust</option>
-                                <option value= 350 id="Crust">NY Style Pizza</option>
+                            <select id="crust"  placeholder="crust" name="crust">
+                                <option value= 100 id="crust">Cheese-Stuffed Crust</option>
+                                <option value= 250 id="crust">Pizza Bagels</option>
+                                <option value= 300 id="crust">Neapolitan Crust</option>
+                                <option value= 350 id="crust">NY Style Pizza</option>
                             </select>
                             <p>Select the topping you want:</p>
-                            <select id="topping" name="Size">
+                            <select id="topping"  placeholder="topping" name="topping">
                                 <option value= 50 id="topping">Pepperoni</option>
                                 <option value= 100 id="topping">Onions</option>
                                 <option value= 150 id="topping">Mushroom</option>
                                 <option value= 200 id="topping">Extra cheese</option>
                             </select>
                             <p>Quantity:</p>
-                            <input type="number" placeholder="Quantity" id="quantity"/>
-                            <p id="pizzaSize"></p>
-                            <p id="pizzaCrust"></p>
-                            <p id="pizzaTopping"></p>
+                            <input type="number" placeholder="Quantity" id="quantity" min="1"/>
                         </form>
                     </div>
                     <div class="col-md-5" id="delivery-form">
@@ -153,6 +150,10 @@
                                 placeholder="phone number"
                                 id="phone"
                                 />
+                                <div class="form-control" id="mode">
+                                    <input type="radio"  name="pick"  value="1"checked> Pick-up &nbsp;&nbsp;&nbsp;<br >
+                                    <input type="radio" value="200" id="cost" name="pick"  value="2"> Delivery<br>
+                                </div>
                                 <p>Location:</p>
                                 <select id="location" name="location">
                                     <option value="Embakasi">Embakasi</option>
@@ -176,7 +177,7 @@
                             </form>
                             
                             <div class="checkout">
-                                <button input type="submit" id="checkoutbutton">checkout</button>
+                                <button input type="submit" id="checkout">checkout</button>
                             </div>
                         </div>
                     </div>
@@ -197,7 +198,8 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
+        
         <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/test.js"></script>
     </body>
 </html>

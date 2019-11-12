@@ -68,6 +68,11 @@ input[type=text] , select {
   #checkoutbutton {
     margin-top: 15px;
   }
+  #mode {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 .pics{
       margin-bottom:5%;
       margin-top:5%;
